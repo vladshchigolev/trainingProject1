@@ -39,7 +39,7 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		fmt.Println(targetNumber, guess)
+		//fmt.Println(targetNumber, guess)
 		if guess < targetNumber {
 			fmt.Println("Ваше число меньше загаданного")
 		} else if guess > targetNumber {
